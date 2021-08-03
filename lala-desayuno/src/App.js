@@ -1,7 +1,9 @@
 import logo from './logo.svg';
 import './App.css';
-import {BrouserRouter, Switch, Route } from 'react-router-dom';
+import {BrowserRouter, Switch, Router } from 'react-router-dom';
 import NavBar from './components/navBar';
+import CardComponent from './components/CardComponent';
+import ItemListContainer from './components/itemListContainer.js';
 
 function App() {
   return (
@@ -11,9 +13,11 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         
-        <NavBar />    
+          <NavBar/>    
+          <ItemListContainer/>
         
       </header>
+      
     </div>
     
   );

@@ -1,9 +1,11 @@
 import React from 'react';
+import CartWidget from './CartWidget';
 
 function NavBar() {
     return (
       <div>
         <nav classname="navbar navbar-expand-lg navbar-light bg-light">
+          <CartWidget/>
           <div classname="container-fluid">
             <a classname="navbar-brand" href="#Logo">Lalá Desayunos</a>
             <button classname="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
