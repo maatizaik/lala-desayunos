@@ -4,6 +4,7 @@ import {BrowserRouter, Switch, Router } from 'react-router-dom';
 import NavBar from './components/navBar';
 import CardComponent from './components/CardComponent';
 import ItemListContainer from './components/itemListContainer.js';
+import ItemCount from './components/ItemCount';
 
 function App() {
   return (
@@ -17,6 +18,8 @@ function App() {
           <ItemListContainer/>
         
       </header>
+
+      <ItemCount/>
       
     </div>
     
