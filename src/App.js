@@ -5,6 +5,7 @@ import NavBar from './components/navBar';
 import CardComponent from './components/CardComponent';
 import ItemListContainer from './components/itemListContainer.js';
 import ItemCount from './components/ItemCount';
+import ItemDetailContainer from './components/itemDetailContainer';
 
 function App() {
   return (
@@ -16,10 +17,12 @@ function App() {
         
           <NavBar/>    
           <ItemListContainer/>
+          <ItemDetailContainer/>
         
       </header>
 
       <ItemCount stock ='5' initial ='1'/>
+    
       
     </div>
     

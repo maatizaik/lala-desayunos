@@ -12,20 +12,23 @@ export default function Item(){
                     id:"01",
                     name:"desayuno premium",
                     description:"desayuno con accesorios metalizados",
-                    stock:11
+                    stock:11,
+                    precio:"$50"
                 },
                 {
                     id:"02",
                     name:"desayuno small",
                     description:"desayuno pequeño",
-                    stock:5
+                    stock:5,
+                    precio:"$20"
                 }
                 ,
                 {
                     id:"03",
                     name:"desayuno medium",
                     description:"desayuno mediano",
-                    stock:5
+                    stock:5,
+                    precio:"$35"
                 }
                 ]
                     setTimeout(()=>resolve(data),3000)
